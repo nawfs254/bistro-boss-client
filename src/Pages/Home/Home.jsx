@@ -9,10 +9,12 @@ import Reviews from "./Reviews";
 
 const Home = () => {
     return (
-        <div>
+        <div className="-mt-0 md:-mt-32">
             <Banner></Banner>
             <OrderOnline></OrderOnline>
-            <CommonBanner img={'https://iili.io/JPyIc7a.jpg'} head="Bistro Boss" para="Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, libero accusamus laborum deserunt ratione dolor officiis praesentium! Deserunt magni aperiam dolor eius dolore at, nihil iusto ducimus incidunt quibusdam nemo."></CommonBanner>
+            <div className="w-full md:w-4/5 mx-auto">
+                <CommonBanner img={'https://iili.io/JPyIc7a.jpg'} head="Bistro Boss" para="Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, libero accusamus laborum deserunt ratione dolor officiis praesentium! Deserunt magni aperiam dolor eius dolore at, nihil iusto ducimus incidunt quibusdam nemo."></CommonBanner>
+            </div>
             <OurMenu></OurMenu>
             <ContactNo></ContactNo>
             <CheffsRec></CheffsRec>
