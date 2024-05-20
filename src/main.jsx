@@ -7,7 +7,7 @@ import MainLayout from './Layout/MainLayout.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className='font-inter max-w-[1920px] mx-auto'>
+    <div className='font-inter max-w-[1920px] mx-auto bg-white'>
       <RouterProvider router={router}>
         <MainLayout></MainLayout>
       </RouterProvider>

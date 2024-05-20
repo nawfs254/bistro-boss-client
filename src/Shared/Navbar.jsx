@@ -12,7 +12,7 @@ const Navbar = () => {
     </>
 
     return (
-        <div className="flex items-center bg-black text-white px-4 md:px-10 py-5">
+        <div className="flex items-center bg-black bg-opacity-70 text-white px-4 md:px-10 py-5 sticky z-10 w-full top-0">
             <div className="site-name flex-grow font-cinzel">
                 <p className="text-xl md:text-3xl font-black">Bistro Boss</p>
                 <p className="text-lg md:text-2xl font-bold tracking-[2px]">Restaurant</p>
